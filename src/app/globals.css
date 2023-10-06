@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+  font-family: "LVRegular";
+  src: url("../fonts/lv/LouisVuitton-Regular.woff2");
+}
+
+@font-face{
+  font-family: "OPTIMA";
+  src: local("OPTIMA"),
+  url("../fonts/fearOfGod/OPTIMA.woff2") format("woff2")
+}
+
+
+@font-face{
+  font-family: "navBarTitle";
+  src: local("navBarTitle"),
+  url("../fonts/fearOfGod/HelveticaNeueLTPro-Cn.woff2") format("woff2")
+}
+
+
+@font-face{
+  font-family: "navBarLinks";
+  src: local("navBarLinks"),
+  url("../fonts/fearOfGod/HelveticaNeueLTPro-LtCn.woff2") format("woff2")
+}
+
+@font-face {
+  font-family: "Louis Vuitton Web";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../fonts/lv/LouisVuitton-Light.woff2") format("woff2"),url("/src/fonts/lv/LouisVuitton-Light.woff") format("woff")
+}
+
+
+@font-face {
+  font-family: "Futura";
+  font-style: normal;
+  src: url("../fonts/FuturaStd-Medium.woff2") format("woff2"),url("/src/fonts/lv/LouisVuitton-Light.woff") format("woff")
+}
